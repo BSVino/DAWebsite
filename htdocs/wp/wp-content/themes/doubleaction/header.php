@@ -88,8 +88,8 @@ $('.whitelink').hover(
         <a href="/"><div id="logo"></div></a>
         <div id="nav">
                 <a class="navlink" href="/blog" >NEWS</a>
-                <?/*<a class="navlink" href="/game">GAME</a>
-                <a class="navlink" href="/workshop">WORKSHOP</a>*/?>
+                <a class="navlink" href="/game">GAME</a>
+                <?/*<a class="navlink" href="/workshop">WORKSHOP</a>*/?>
                 <a class="navlink" href="http://forums.doubleactiongame.com">COMMUNITY</a>
         </div>
 </div>
