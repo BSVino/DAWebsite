@@ -11,7 +11,7 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
-<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+<title><?php <?php wp_title('', true, 'right'); ?></title>
 
 <link rel="stylesheet" href="/wp/wp-content/twentyfourteen/style.css" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -31,11 +31,23 @@ $('.navlink').hover(
   function() {
     $(this)
       .css('color','white')
-      .animate({'color': '#f5b830', 'margin-top': '-15px', 'padding-bottom': '15px'}, 150);
+      .animate({'color': '#f5b830'}, 150);
   },
   function() {
     $(this)
-      .animate({'color': 'white', 'margin-top': '0px', 'padding-bottom': '0px'}, 150);
+      .animate({'color': 'white'}, 150);
+  }
+);
+
+$('.menulevel2').hover( 
+  function() {
+    $(this)
+      .css('color','white')
+      .animate({'color': '#f5b830', 'padding-left': '20px'}, 150);
+  },
+  function() {
+    $(this)
+      .animate({'color': 'white', 'padding-left': '0px'}, 150);
   }
 );
 
@@ -81,16 +93,47 @@ $('.whitelink').hover(
   }
 );
 
+$("ul.dropdown li").hover(
+	function() {
+	    $(this).addClass("hover");
+	    $('ul:first', this).css('visibility', 'visible');
+	},
+	function() {
+	    $(this).removeClass("hover");
+    	$('ul:first', this).css('visibility', 'hidden');
+	}
+);
+
+
 });
 </script>
+
+<?
+	// This stuff won't stick in the .css, not interested in finding out why.
+	$menuitem = 'class="menulevel2 whitelink" style="font-size: 22px; text-align: left; margin: 0px; margin-left: 15px; padding: 0px;"';
+?>
 
 <div id="header" role="banner">
         <a href="/"><div id="logo"></div></a>
         <div id="nav">
-                <a class="navlink" href="/blog" >NEWS</a>
-                <a class="navlink" href="/game">GAME</a>
-                <?/*<a class="navlink" href="/workshop">WORKSHOP</a>*/?>
-                <a class="navlink" href="http://forums.doubleactiongame.com">COMMUNITY</a>
+
+		    <ul class="dropdown">
+		    	<li><a class="menulevel1 whitelink navlink" href="/blog">NEWS</a></li>
+		    	<li><a class="menulevel1 whitelink navlink" href="/game">GAME</a>
+		    		<ul class="sub_menu">
+		    			<li><a href="/game" <? echo $menuitem; ?>>MEDIA</a></li>
+		    			<li><a href="/quickplay" <? echo $menuitem; ?>>QUICK PLAY GUIDE</a></li>
+		    			<li><a href="/serverguide" <? echo $menuitem; ?>>SERVER SETUP GUIDE</a></li>
+		    		</ul>
+		    	</li>
+                <?/*<li><a class="navlink" href="/workshop">WORKSHOP</a></li>*/?>
+		    	<li><a class="menulevel1 whitelink navlink" href="http://forums.doubleactiongame.com/">COMMUNITY</a>
+		    		<ul class="sub_menu">
+		    			<li><a href="http://forums.doubleactiongame.com/" <? echo $menuitem; ?>>FORUMS</a></li>
+		    			<li><a href="http://steamcommunity.com/groups/2x_action" <? echo $menuitem; ?>>STEAM GROUP</a></li>
+		    		</ul>
+		    	</li>
+		    </ul>
         </div>
 </div>
 

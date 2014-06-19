@@ -4320,116 +4320,6 @@ body {
 	color: #ccc;
 }
 
-#frontvideo {
-	float: left;
-}
-
-#download_outer {
-	float: left;
-	margin-left: 30px;
-	margin-top: 120px;
-	background-color: #a7a7a7;
-	padding: 13px;
-	width: 300px;
-}
-
-#download_inner {
-	display: block;
-	float: left;
-	background-color: #4a4a4a;
-	width: 100%;
-
-	font-family: 'Franchise', Fallback, sans-serif;
-	font-size: 52px;
-	font-weight: normal;
-	color: white;
-	text-align: center;
-	text-shadow: 0px 0px 15px #000;
-}
-
-#download_now {
-	font-size: 60px;
-}
-
-#content {
-	float: left;
-	font-size: 1.2em;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 650px;
-}
-
-#content_inner {
-	background: #222 url('/wp/wp-content/themes/doubleaction/images/light_background.jpg') repeat center top;
-	float: left;
-	background-color: #dedede;
-	color: #333;
-	width: 650px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#blogbox {
-	float: left;
-	width: 600px;
-	margin-left: 20px;
-	text-align: left;
-	padding-bottom: 20px;
-	font-size: 14px;
-	line-height: 160%;
-}
-
-.blogtitle {
-	display: block;
-	font-family: 'Franchise', Fallback, sans-serif;
-	font-size: 58px;
-	font-weight: normal;
-	line-height: normal;
-	text-shadow: 0px 0px 0px #000000;
-	color: #f5b830;
-	background-color: #4a4a4a;
-	width: 550px;
-	padding: 10px;
-	margin-top: 30px;
-}
-
-.blogbyline {
-	font-weight: light;
-	color: #888;
-	font-size: smaller;
-}
-
-#rightbar {
-	float: left;
-	width: 336px;
-	margin: 10px 10px 10px 10px;
-	margin-top: 20px;
-	padding: 10px 10px 10px 10px;
-	background-color: #a7a7a7;
-	height: 100%;
-}
-
-.rightbarsection {
-	margin-bottom: 30px;
-}
-
-.socialbutton {
-	display: block;
-	float: left;
-	margin: 10px;
-}
-
-.sitemap {
-	color: #666;
-	text-align: center;
-	margin: 10px;
-	font-size: 1.5em;
-}
-
-.sitemap a {
-	color: #666;
-}
-
 .widecolumn .entry p {
 	font-size: 1.05em;
 	}
@@ -4640,54 +4530,6 @@ body {
 	padding: 0;
 	}
 
-#page {
-	padding: 0;
-	width: 1030px;
-	margin-left: auto;
-	margin-right: auto;
-	}
-
-#header {
-	background: #222 url('/wp/wp-content/themes/doubleaction/images/splash.jpg') no-repeat center top;
-	width:100%;
-	overflow:hidden;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	height: 579px;
-}
-
-#logo {
-	margin: 10px 10px 10px 10px;
-	width: 1300px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#nav {
-	width: 675px;
-	/*width: 900px; -- When all the buttons are there*/
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 80px;
-}
-
-#nav a {
-	display: block;
-	float: left;
-	width: 150px;
-	margin-left: 37px;
-	margin-right: 38px;
-
-	color: white;
-	text-align: center;
-	font-family: 'Franchise', Fallback, sans-serif;
-	font-size: 42px;
-	font-weight:normal;
-	text-shadow:0px 0px 15px #000000;
-}
-
 #headerimg {
 	margin: 0;
 	width: 100%;
@@ -4748,26 +4590,6 @@ body {
 .clear {
 	clear: both;
 }
-
-#footer {
-	padding: 0;
-	margin: 0 auto;
-	width: 944px;
-	color: #666;
-}
-
-#footer a {
-	color: white;
-}
-
-#footer a:hover {
-	color: #f5b830;
-}
-
-#footer p {
-	margin-top: -10px;
-	text-align: center;
-	}
 /* End Structure */
 
 
@@ -5159,4 +4981,198 @@ div.aligncenter {
 	margin: 0;
 }
 /* End captions */
+
+
+#frontvideo {
+	float: left;
+}
+
+#download_outer {
+	float: left;
+	margin-left: 30px;
+	margin-top: 120px;
+	background-color: #a7a7a7;
+	padding: 13px;
+	width: 300px;
+}
+
+#download_inner {
+	display: block;
+	float: left;
+	background-color: #4a4a4a;
+	width: 100%;
+
+	font-family: 'Franchise', Fallback, sans-serif;
+	font-size: 52px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 15px #000;
+}
+
+#download_now {
+	font-size: 60px;
+}
+
+#content {
+	float: left;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 650px;
+}
+
+#content_inner {
+	background: #222 url('/wp/wp-content/themes/doubleaction/images/light_background.jpg') repeat center top;
+	float: left;
+	background-color: #dedede;
+	color: #333;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#blogbox {
+	float: left;
+	width: 600px;
+	margin-left: 20px;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 160%;
+}
+
+.blogtitle {
+	display: block;
+	font-family: 'Franchise', Fallback, sans-serif;
+	font-size: 58px;
+	font-weight: normal;
+	line-height: normal;
+	text-shadow: 0px 0px 0px #000000;
+	color: #f5b830;
+	background-color: #4a4a4a;
+	width: 550px;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.blogbyline {
+	font-weight: light;
+	color: #888;
+	font-size: smaller;
+}
+
+#rightbar {
+	float: left;
+	width: 336px;
+	margin: 10px 10px 10px 10px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	background-color: #a7a7a7;
+	height: 100%;
+}
+
+.rightbarsection {
+	margin-bottom: 30px;
+}
+
+.socialbutton {
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+.sitemap {
+	color: #666;
+	text-align: center;
+	margin: 10px;
+	font-size: 1.5em;
+}
+
+.sitemap a {
+	color: #666;
+}
+
+#page {
+	padding: 0;
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#header {
+	background: #222 url('/wp/wp-content/themes/doubleaction/images/splash.jpg') no-repeat center top;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	height: 579px;
+}
+
+#logo {
+	margin: 10px 10px 10px 10px;
+	width: 1300px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav {
+	width: 675px;
+	/*width: 900px; -- When all the buttons are there*/
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
+}
+
+#nav a {
+	display: block;
+	float: left;
+	width: 150px;
+	margin-left: 37px;
+	margin-right: 38px;
+
+	color: white;
+	text-align: center;
+	font-family: 'Franchise', Fallback, sans-serif;
+	font-size: 42px;
+	font-weight:normal;
+	text-shadow:0px 0px 15px #000000;
+}
+
+#footer {
+	padding: 0;
+	margin: 0 auto;
+	width: 944px;
+	color: #666;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer a:hover {
+	color: #f5b830;
+}
+
+#footer p {
+	margin-top: -10px;
+	text-align: center;
+	}
+
+ul.dropdown { position: relative; list-style: none; margin: 0px; padding: 0px; }
+ul.dropdown li { float: left; zoom: 1; }
+ul.dropdown a:hover { color: #000; }
+ul.dropdown a:active { color: #ffa500; }
+ul.dropdown li a { display: block; color: #222; }
+ul.dropdown li.hover,
+ul.dropdown li:hover { color: black; position: relative; }
+ul.dropdown li.hover a { color: black; }
+
+
+ul.dropdown ul { width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; list-style: none; background: black; z-index:999999; padding-bottom: 15px; padding-top: 10px; }
+ul.dropdown ul li { font-weight: normal; color: #000; float: none; }
+									  
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a { border-right: none; width: 100%; display: inline-block; }
 
