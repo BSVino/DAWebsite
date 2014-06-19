@@ -124,7 +124,7 @@
 				<div class="rightbarsection">
 					<a class="socialbutton" href="https://www.facebook.com/2xaction"><img src="/wp/wp-content/themes/doubleaction/images/social-facebook.png" /></a>
 					<a class="socialbutton" href="http://steamcommunity.com/groups/2x_action"><img src="/wp/wp-content/themes/doubleaction/images/social-steamgroup.png" /></a>
-					<a class="socialbutton" href="https://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
+					<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
 					<a class="socialbutton" href="https://www.twitter.com/vinobs"><img src="/wp/wp-content/themes/doubleaction/images/social-twitter.png" /></a>
 					<br clear="both" />
 				</div>
