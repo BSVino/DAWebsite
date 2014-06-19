@@ -4354,6 +4354,7 @@ body {
 #content {
 	float: left;
 	font-size: 1.2em;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 650px;
 }
@@ -4402,7 +4403,7 @@ body {
 	float: left;
 	width: 336px;
 	margin: 10px 10px 10px 10px;
-	margin-top: 0px;
+	margin-top: 20px;
 	padding: 10px 10px 10px 10px;
 	background-color: #a7a7a7;
 	height: 100%;
@@ -4475,18 +4476,21 @@ small {
 	}
 
 strong {
-	color: #d5d5d5;
+	color: black;
 }
 
 h1, h2, h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
-	}
+	font-family: 'Franchise', sans-serif;
+	font-weight: normal;
+}
 
 h1 {
 	font-size: 4em;
 	text-align: center;
-	}
+	color: #f5b830;
+	background-color: #4a4a4a;
+	text-shadow: 0px 0px 0px #000000;
+}
 
 #headerimg .description {
 	font-size: 1.2em;
@@ -4517,17 +4521,25 @@ h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 
 h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
 	font-family: 'Franchise', Fallback, sans-serif;
-	font-size: 58px;
+	font-size: 42px;
 	font-weight: normal;
 	line-height: normal;
 	text-shadow: 0px 0px 0px #000000;
-	color: #f5b830;
+	color: white;
 	background-color: #4a4a4a;
-	}
+	padding: 10px;
+	padding-top: 30px;
+}
 
 h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
 	text-decoration: none;
 	}
+
+h3 {
+	font-size: 28px;
+	padding: 5px;
+	padding-top: 20px;
+}
 
 .entry p a:visited {
 	color: #b85a5b;
@@ -4762,8 +4774,9 @@ body {
 
 /*	Begin Headers */
 h1 {
-	padding-top: 70px;
+	padding-top: 40px;
 	margin: 0;
+	margin-bottom: 10px;
 	}
 
 h2 {
@@ -4781,7 +4794,6 @@ h2.pagetitle {
 	}
 
 h3 {
-	padding: 0;
 	margin: 30px 0 0;
 	}
 
