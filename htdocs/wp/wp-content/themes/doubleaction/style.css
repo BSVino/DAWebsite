@@ -4352,8 +4352,10 @@ body {
 }
 
 #content {
+	float: left;
 	font-size: 1.2em;
 	margin-bottom: 20px;
+	width: 650px;
 }
 
 #content_inner {
@@ -4361,7 +4363,7 @@ body {
 	float: left;
 	background-color: #dedede;
 	color: #333;
-	width: 1000px;
+	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -4400,6 +4402,7 @@ body {
 	float: left;
 	width: 336px;
 	margin: 10px 10px 10px 10px;
+	margin-top: 0px;
 	padding: 10px 10px 10px 10px;
 	background-color: #a7a7a7;
 	height: 100%;
@@ -4458,7 +4461,7 @@ border: 1px solid #444;
 }
 
 #footer {
-	background: #000;
+	background: #1a1a1a;
 	border: none;
 	border-top-width: 1px;
 	border-top-style: solid;
@@ -4627,7 +4630,7 @@ body {
 
 #page {
 	padding: 0;
-	width: 1000px;
+	width: 1030px;
 	margin-left: auto;
 	margin-right: auto;
 	}

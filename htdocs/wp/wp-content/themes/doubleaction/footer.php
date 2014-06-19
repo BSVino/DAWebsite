@@ -5,6 +5,7 @@
  */
 ?>
 
+<br clear="both" />
 </div>
 
 <hr />

@@ -17,7 +17,7 @@
 
         <? } ?>
 
-        <div id="content" class="widecolumn" role="main"><div id="content_inner">
+        <div id="content" role="main"><div id="content_inner">
 
 		    <? if (is_front_page()) { ?>
 
@@ -116,26 +116,25 @@
 
 	        <? } ?>
 
-			<div id="rightbar">
-				<div class="rightbarsection">
-					<iframe src="http://steamcommunity.com/sharedfiles/widget/272032345" width="336" height="137" frameborder="0" scrolling="no"></iframe>
-				</div>
+		</div></div>
+
+		<div id="rightbar">
+			<div class="rightbarsection">
+				<iframe src="http://steamcommunity.com/sharedfiles/widget/272032345" width="336" height="137" frameborder="0" scrolling="no"></iframe>
+			</div>
 				
-				<div class="rightbarsection">
-					<a class="socialbutton" href="https://www.facebook.com/2xaction"><img src="/wp/wp-content/themes/doubleaction/images/social-facebook.png" /></a>
-					<a class="socialbutton" href="http://steamcommunity.com/groups/2x_action"><img src="/wp/wp-content/themes/doubleaction/images/social-steamgroup.png" /></a>
-					<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
-					<a class="socialbutton" href="https://www.twitter.com/vinobs"><img src="/wp/wp-content/themes/doubleaction/images/social-twitter.png" /></a>
-					<br clear="both" />
-				</div>
+			<div class="rightbarsection">
+				<a class="socialbutton" href="https://www.facebook.com/2xaction"><img src="/wp/wp-content/themes/doubleaction/images/social-facebook.png" /></a>
+				<a class="socialbutton" href="http://steamcommunity.com/groups/2x_action"><img src="/wp/wp-content/themes/doubleaction/images/social-steamgroup.png" /></a>
+				<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
+				<a class="socialbutton" href="https://www.twitter.com/vinobs"><img src="/wp/wp-content/themes/doubleaction/images/social-twitter.png" /></a>
+				<br clear="both" />
+			</div>
 
 <?/*!-- Fast Flickr start -->
 				<div id="fastflickrwidget-2" class="widget widget_fastflickrwidget">					<div class="widget-top"><h4>Latest Killcams</h4><div class="stripe-line"></div></div>
 						<div class="widget-container">					<a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/14416190236/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm4.staticflickr.com/3884/14416190236_26227283c7_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/9996336153/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm3.staticflickr.com/2848/9996336153_3b1d2a1b75_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/9996337273/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm6.staticflickr.com/5455/9996337273_8eab1861e4_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/14437985572/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm6.staticflickr.com/5546/14437985572_1904075a3b_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/9996337623/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm4.staticflickr.com/3798/9996337623_164c075574_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/14252886617/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm3.staticflickr.com/2929/14252886617_49bb97bae7_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/14252886447/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm4.staticflickr.com/3895/14252886447_799ea1ab37_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/10739889676/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm3.staticflickr.com/2865/10739889676_c2b938b908_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/9996339403/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm4.staticflickr.com/3731/9996339403_f9f6bb26f4_s.jpg" /></a><a  target="_blank" href="http://www.flickr.com/photos/103635579@N03/9996335843/"><img vspace="2" hspace="5" class="flickr_photo" alt="			doubleactiongame posted a photo:	" title="			doubleactiongame posted a photo:	" src="http://farm8.staticflickr.com/7289/9996335843_8661a5bbea_s.jpg" /></a>									</div></div><!-- .widget /-->			<!-- Fast Flickr end --*/?>
 			
-			</div>
-
-		</div></div>
-
+		</div>
 <?php get_footer(); ?>
 
