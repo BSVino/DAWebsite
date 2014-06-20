@@ -5118,8 +5118,7 @@ div.aligncenter {
 }
 
 #nav {
-	width: 675px;
-	/*width: 900px; -- When all the buttons are there*/
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 80px;

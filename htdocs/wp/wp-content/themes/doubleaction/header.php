@@ -126,7 +126,13 @@ $("ul.dropdown li").hover(
 		    			<li><a href="/serverguide" <? echo $menuitem; ?>>SERVER SETUP GUIDE</a></li>
 		    		</ul>
 		    	</li>
-                <?/*<li><a class="navlink" href="/workshop">WORKSHOP</a></li>*/?>
+                <li><a class="navlink" href="/workshop">WORKSHOP</a>
+		    		<ul class="sub_menu">
+		    			<li><a href="/coding" <? echo $menuitem; ?>>CODING</a></li>
+		    			<li><a href="/mapping" <? echo $menuitem; ?>>MAPPING</a></li>
+		    			<li><a href="/modeling" <? echo $menuitem; ?>>MODELING</a></li>
+		    		</ul>
+		    	</li>
 		    	<li><a class="menulevel1 whitelink navlink" href="http://forums.doubleactiongame.com/">COMMUNITY</a>
 		    		<ul class="sub_menu">
 		    			<li><a href="http://forums.doubleactiongame.com/" <? echo $menuitem; ?>>FORUMS</a></li>
