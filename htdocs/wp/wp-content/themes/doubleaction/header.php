@@ -11,7 +11,7 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
-<title><?php <?php wp_title('', true, 'right'); ?></title>
+<title><?php wp_title('', true, 'right'); ?></title>
 
 <link rel="stylesheet" href="/wp/wp-content/twentyfourteen/style.css" type="text/css" media="screen" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
