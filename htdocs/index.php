@@ -59,7 +59,7 @@
 
 								<div style="height: 1px; background-color: black; margin-top: 60px;"></div>
 			                <? endforeach; ?>
-					<a href="/blog" style="font-size: large; padding: 10px;">&laquo; More posts</a>
+					<a href="/blog/page/2/" style="font-size: large; padding: 10px;">&laquo; More posts</a>
 				</div>
 
 	        <? } else { ?>
