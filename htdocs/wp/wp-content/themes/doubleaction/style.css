@@ -47,7 +47,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @font-face
 {
 	font-family: Franchise;
-	src: url(franchise-bold-hinted.ttf);
+	src: url('http://www.doubleactiongame.com/wp/wp-content/themes/doubleaction/franchise-bold-hinted.ttf');
 }
 
 .share-post {
@@ -4369,7 +4369,7 @@ strong {
 	color: black;
 }
 
-h1, h2, h3 {
+h1, h2, h3, th {
 	font-family: 'Franchise', sans-serif;
 	font-weight: normal;
 }
@@ -4403,6 +4403,10 @@ h2.pagetitle {
 h3 {
 	font-size: 1.3em;
 	}
+
+th {
+	font-size: 3em;
+}
 
 h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 	text-decoration: none;
@@ -5175,3 +5179,17 @@ ul.dropdown ul li { font-weight: normal; color: #000; float: none; }
 /* IE 6 & 7 Needs Inline Block */
 ul.dropdown ul li a { border-right: none; width: 100%; display: inline-block; }
 
+#leaderboard {
+	background: #222 url('/wp/wp-content/themes/doubleaction/images/light_background.jpg') repeat center top;
+}
+
+#leaderboard table {
+}
+
+#leaderboard td {
+	font-size: large;
+}
+
+#leaderboard_short {
+	font-size: large;
+}

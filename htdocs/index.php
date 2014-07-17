@@ -9,7 +9,7 @@
 
         <? if (is_front_page()) { ?>
 
-			<iframe id="frontvideo" width="640" height="360" style="margin-top: 30px;" src="//www.youtube.com/embed/9hoDCn_atk8" frameborder="0" allowfullscreen></iframe>
+			<iframe id="frontvideo" width="640" height="360" style="margin-top: 30px;" src="//www.youtube.com/embed/btzVypzt5nI" frameborder="0" allowfullscreen></iframe>
 
 			<div id="download_outer"><a id="download_inner" class="whitelink" href="http://www.moddb.com/mods/double-action/downloads">Completely Free!<br /><span id="download_now">DOWNLOAD NOW</span></a></div>
 
@@ -131,6 +131,11 @@
 				<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
 				<a class="socialbutton" href="https://www.twitter.com/vinobs"><img src="/wp/wp-content/themes/doubleaction/images/social-twitter.png" /></a>
 				<br clear="both" />
+			</div>
+
+			<div class="rightbarsection">
+				<h3>Double Action Style Leaders</h3>
+				<? require '/srv/www/doubleaction.data/htdocs/leaderboard/short.html'; ?>
 			</div>
 
 <?/*!-- Fast Flickr start -->
