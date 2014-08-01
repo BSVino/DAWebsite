@@ -122,10 +122,6 @@
 
 		<div id="rightbar">
 			<div class="rightbarsection">
-				<iframe src="http://steamcommunity.com/sharedfiles/widget/272032345" width="336" height="137" frameborder="0" scrolling="no"></iframe>
-			</div>
-				
-			<div class="rightbarsection">
 				<a class="socialbutton" href="https://www.facebook.com/2xaction"><img src="/wp/wp-content/themes/doubleaction/images/social-facebook.png" /></a>
 				<a class="socialbutton" href="http://steamcommunity.com/groups/2x_action"><img src="/wp/wp-content/themes/doubleaction/images/social-steamgroup.png" /></a>
 				<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
