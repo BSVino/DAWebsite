@@ -11,7 +11,7 @@
 
 			<iframe id="frontvideo" width="640" height="360" style="margin-top: 30px;" src="//www.youtube.com/embed/btzVypzt5nI" frameborder="0" allowfullscreen></iframe>
 
-			<div id="download_outer"><a id="download_inner" class="whitelink" href="http://www.moddb.com/mods/double-action/downloads">Completely Free!<br /><span id="download_now">DOWNLOAD NOW</span></a></div>
+			<div id="download_outer"><a id="download_inner" class="whitelink" href="http://store.steampowered.com/app/317360">Completely Free!<br /><span id="download_now">DOWNLOAD NOW</span></a><center>Requires Steam</center></div>
 
 			<br clear="both" />
 
@@ -126,6 +126,7 @@
 				<a class="socialbutton" href="http://steamcommunity.com/groups/2x_action"><img src="/wp/wp-content/themes/doubleaction/images/social-steamgroup.png" /></a>
 				<a class="socialbutton" href="http://www.doubleactiongame.com/rss"><img src="/wp/wp-content/themes/doubleaction/images/social-subscribe.png" /></a>
 				<a class="socialbutton" href="https://www.twitter.com/vinobs"><img src="/wp/wp-content/themes/doubleaction/images/social-twitter.png" /></a>
+				<a class="donatebutton" href="http://www.doubleactiongame.com/double-action-development-fund/">Support Double Action!</a>
 				<br clear="both" />
 			</div>
 

@@ -5077,6 +5077,7 @@ div.aligncenter {
 }
 
 .rightbarsection {
+	text-align: center;
 	margin-bottom: 30px;
 }
 
@@ -5084,6 +5085,12 @@ div.aligncenter {
 	display: block;
 	float: left;
 	margin: 10px;
+}
+
+.donatebutton {
+	font-family: 'Franchise', sans-serif;
+	font-size: 42px;
+	text-decoration: underline;
 }
 
 .sitemap {
