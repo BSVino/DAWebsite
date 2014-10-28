@@ -5081,16 +5081,16 @@ div.aligncenter {
 	margin-bottom: 30px;
 }
 
+.donatebutton {
+       font-family: 'Franchise', sans-serif;
+       font-size: 42px;
+       text-decoration: underline;
+}
+
 .socialbutton {
 	display: block;
 	float: left;
 	margin: 10px;
-}
-
-.donatebutton {
-	font-family: 'Franchise', sans-serif;
-	font-size: 42px;
-	text-decoration: underline;
 }
 
 .sitemap {
