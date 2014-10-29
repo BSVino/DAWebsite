@@ -122,8 +122,8 @@ $("ul.dropdown li").hover(
 		    	<li><a class="menulevel1 whitelink navlink" href="/game">GAME</a>
 		    		<ul class="sub_menu">
 		    			<li><a href="/game" <? echo $menuitem; ?>>MEDIA</a></li>
-		    			<li><a href="/quickplay" <? echo $menuitem; ?>>QUICK PLAY GUIDE</a></li>
-		    			<li><a href="/serverguide" <? echo $menuitem; ?>>SERVER SETUP GUIDE</a></li>
+		    			<li><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=332224979" <? echo $menuitem; ?>>QUICK PLAY GUIDE</a></li>
+		    			<li><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=332255864" <? echo $menuitem; ?>>SERVER SETUP GUIDE</a></li>
 		    		</ul>
 		    	</li>
                 <li><a class="navlink" href="/workshop">WORKSHOP</a>
@@ -135,8 +135,8 @@ $("ul.dropdown li").hover(
 		    	</li>
 		    	<li><a class="menulevel1 whitelink navlink" href="http://forums.doubleactiongame.com/">COMMUNITY</a>
 		    		<ul class="sub_menu">
-		    			<li><a href="http://forums.doubleactiongame.com/" <? echo $menuitem; ?>>FORUMS</a></li>
-		    			<li><a href="http://steamcommunity.com/groups/2x_action" <? echo $menuitem; ?>>STEAM GROUP</a></li>
+		    			<li><a href="http://steamcommunity.com/app/317360" <? echo $menuitem; ?>>STEAM GAME HUB</a></li>
+		    			<li><a href="http://steamcommunity.com/app/317360/discussions/" <? echo $menuitem; ?>>FORUMS</a></li>
 		    		</ul>
 		    	</li>
 		    </ul>
